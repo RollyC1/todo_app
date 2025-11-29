@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Build outputs
+dist/
+build/
+
+# Environment files (except examples)
+.env
+.env.local
+.env.*.local
+!.env.example
+!.env.production
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Database
+*.sqlite
+*.sqlite3
+
+# Cache
+.cache/
+*.cache
