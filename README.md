@@ -4,8 +4,8 @@ A full-stack Todo application built with Vue.js 3 and Laravel 11.
 
 ## Live Demo
 
-- **Frontend:** https://todo-app-rollyc1.vercel.app *(update with your actual URL)*
-- **Backend API:** https://todo-backend-7bub.onrender.com/api
+- **Frontend:** https://todoapp-one-peach-60.vercel.app/
+- **Backend API:** https://todo-backend-7bub.onrender.com/
 
 ## Features
 
