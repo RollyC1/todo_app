@@ -6,7 +6,7 @@ A modern, full-stack Todo application built with **Vue.js 3** and **Laravel 11**
 ![Laravel](https://img.shields.io/badge/Laravel-11.x-FF2D20?style=flat-square&logo=laravel)
 ![MySQL](https://img.shields.io/badge/MySQL-8.x-4479A1?style=flat-square&logo=mysql)
 
-## 🌟 Features
+## Features
 
 ### Core Features
 - ✅ **CRUD Operations** - Create, Read, Update, and Delete todos
@@ -25,7 +25,7 @@ A modern, full-stack Todo application built with **Vue.js 3** and **Laravel 11**
 - 🔐 **User Authentication** - Register/Login with Laravel Sanctum (API ready)
 - 🧪 **Automated Tests** - Comprehensive PHPUnit test suite
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - **Vue.js 3** - Composition API with `<script setup>`
@@ -42,7 +42,7 @@ A modern, full-stack Todo application built with **Vue.js 3** and **Laravel 11**
 
 ---
 
-## 🚀 Deployment Guide
+## Deployment Guide
 
 ### Option A: Deploy to Railway (Backend) + Vercel (Frontend)
 
@@ -188,7 +188,7 @@ volumes:
 
 ---
 
-## 📋 Local Development Setup (If You Have PHP)
+## Local Development Setup (If You Have PHP)
 
 ### Prerequisites
 - PHP >= 8.2 with extensions: pdo_mysql, mbstring, xml, curl
@@ -216,7 +216,7 @@ npm run dev
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -239,7 +239,7 @@ npm run dev
 
 ---
 
-## 🧪 Running Tests
+## Running Tests
 
 ```bash
 cd backend
@@ -257,7 +257,7 @@ php artisan test
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 todo-app/
@@ -294,7 +294,7 @@ todo-app/
 
 ---
 
-## 🎨 Design Decisions
+## Design Decisions
 
 ### Frontend Architecture
 - **Composition API**: Used Vue 3's Composition API with `<script setup>` for cleaner, more maintainable code
@@ -315,7 +315,7 @@ todo-app/
 
 ---
 
-## 📝 Trade-offs & Considerations
+## Trade-offs & Considerations
 
 1. **MySQL over SQLite**: Chose MySQL for production compatibility with cloud providers like Railway and PlanetScale.
 
