@@ -45,35 +45,3 @@ EXPOSE 8000
 
 # Start command - use shell form to allow variable expansion
 CMD php artisan config:clear && php artisan migrate --force && php artisan serve --host=0.0.0.0 --port=${PORT:-8000}
-```
-
-### File 2: Create `backend/.dockerignore`
-
-Go to `https://github.com/RollyC1/todo_app/tree/main/backend` → Click "Add file" → "Create new file"
-
-Name: `.dockerignore`
-
-Content:
-```
-.env
-.env.local
-.env.*.local
-.git
-.gitignore
-node_modules
-vendor
-storage/logs/*
-storage/framework/cache/*
-storage/framework/sessions/*
-storage/framework/views/*
-tests
-phpunit.xml
-README.md
-docker-compose.yml
-```
-
----
-
-### Also verify your Render environment variables have the correct DB_HOST:
-```
-DB_HOST = dpg-d4l83q24d50c73dtuv20-a.internal
